@@ -784,6 +784,7 @@ li[role="presentation"] button {
 
 .form-container {
   position: absolute;
+  z-index: 10;
   top: 50%;
   -webkit-transform: translateY(-40%);
           transform: translateY(-40%);
@@ -916,5 +917,20 @@ li[role="presentation"] button {
 .newP {
   line-height: 1.4;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1600px) {
+  .project__empty-bg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .news__content {
+    width: 100%;
+  }
+  .news-slider__item {
+    height: auto;
+  }
 }
 /*# sourceMappingURL=main.css.map */
